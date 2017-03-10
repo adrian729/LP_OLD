@@ -1,0 +1,23 @@
+Per a la gramàtica:
+
+1. L'assignació ha de tenir com a minim un push o pop (B2 = B1 no valid)
+
+2. El segon paràmetre de PUSH i POP no pot ser un block sense nom
+
+Per a la interpretació:
+
+1. Una Graella N,M vol dir que té N d'amplada (abscisses) i M  de longitud (ordenades).
+
+Com el (1,1) és la cantonada superior esquerra considerarem que:
+
+WEST implica que ens movem restant a les abscisses
+EAST implica que ens movem sumant a les abscisses
+NORTH implica que ens movem restant a les ordenades
+SOUTH implica que ens movem sumant a les ordenades
+(S'ha revisat l'exemple de l'enunciat respecte això).
+
+2. No es farà mai PUSH dos cops del mateix identificador de block.
+
+3. Podeu suposar que els pops estaran bé i que el block que s'ha de treure està a la part alta de l'altre (a la posició que tinguem guardada). Només per a la interpretació, podeu suposar que el bloc que es treu en un POP és sempre un identificador de block.
+
+4. Si implementeu el MOVE i PUSH "simple" (és a dir que el block de l'esquerra és un block simple o un identificador que representa un block simple) la nota màxima serà de 9 amb blocks complexos la nota màxima serà de 10. Entenem per block simple un que no és combinació d'altres blocks).

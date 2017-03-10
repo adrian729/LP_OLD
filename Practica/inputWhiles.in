@@ -1,0 +1,14 @@
+Grid 10 10
+B2 = PLACE (2,2) AT (5,5)
+
+WHILE(FITS(B2,2,1,2)) [
+]
+
+
+TOWER10
+
+DEF TOWER10
+WHILE(HEIGHT(B2) < 2) [
+	B3 = PLACE (2,2) AT (5,5)
+]
+ENDEF
